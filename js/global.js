@@ -1,4 +1,4 @@
-const gravityY = 300;
+const gravityY = 160;
 var player;
 var stars;
 var bombs;

@@ -17,7 +17,7 @@ function create ()
     //platforms.create(750, 220, globalStrings.ground);
 
     // The player and its settings
-    player = this.physics.add.sprite(100, 450, globalStrings.player);
+    player = this.physics.add.sprite(50, 450, globalStrings.player);
 
     //  Player physics properties. Give the little guy a slight bounce.
     player.setBounce(0.2);

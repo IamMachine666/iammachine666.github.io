@@ -5,9 +5,13 @@ function update ()
         return;
     }
 
+    this.camera.x += 3;
+
     if (cursors.space.isDown)
     {
-        player.setVelocityY(-160);
+        player.setVelocityY(-gravityY);
+
+        player.anims.play('right');
     } 
     else
     {
