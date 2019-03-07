@@ -11,7 +11,7 @@ function update ()
     } 
     else
     {
-        player.setVelocityY(0);
+        player.setVelocityY(gravityY);
 
         player.anims.play('turn');
     }
