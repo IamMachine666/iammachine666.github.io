@@ -7,11 +7,11 @@ function update ()
 
     if (cursors.space.isDown)
     {
-        player.setVelocityX(-160);
+        player.setVelocityY(-160);
     } 
     else
     {
-        player.setVelocityX(0);
+        player.setVelocityY(0);
 
         player.anims.play('turn');
     }
