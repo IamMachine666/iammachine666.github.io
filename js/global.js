@@ -24,5 +24,10 @@ var cursors;
 var score = 0;
 var gameOver = false;
 var scoreText;
+var globalStrings = {
+	arcade: "arcade",
+	sky: "sky"
+	
+};
 
 var game = new Phaser.Game(config);
