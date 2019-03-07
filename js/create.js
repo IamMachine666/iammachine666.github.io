@@ -12,9 +12,9 @@ function create ()
     platforms.create(400, 568, globalStrings.ground).setScale(2).refreshBody();
 
     //  Now let's create some ledges
-    platforms.create(600, 400, globalStrings.ground);
-    platforms.create(50, 250, globalStrings.ground);
-    platforms.create(750, 220, globalStrings.ground);
+    //platforms.create(600, 400, globalStrings.ground);
+    //platforms.create(50, 250, globalStrings.ground);
+    //platforms.create(750, 220, globalStrings.ground);
 
     // The player and its settings
     player = this.physics.add.sprite(100, 450, globalStrings.player);
