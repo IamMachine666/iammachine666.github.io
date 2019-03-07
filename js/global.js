@@ -1,4 +1,5 @@
 const gravityY = 160;
+const gravityX = -2;
 var player;
 var stars;
 var bombs;
@@ -23,7 +24,10 @@ var config = {
     physics: {
         default: 'arcade',
         arcade: {
-            gravity: { y: gravityY },
+            gravity: { 
+                y: gravityY,
+                x: gravityX 
+            },
             debug: false
         }
     },

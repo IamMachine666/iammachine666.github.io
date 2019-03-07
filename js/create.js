@@ -22,6 +22,8 @@ function create ()
     //  Player physics properties. Give the little guy a slight bounce.
     player.setBounce(0.2);
     player.setCollideWorldBounds(true);
+    //Everything moves on X except player
+    player.setVelocityX(0);
 
     //  Our player animations, turning, walking left and walking right.
     this.anims.create({

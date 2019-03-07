@@ -5,8 +5,6 @@ function update ()
         return;
     }
 
-    this.cameras.main.x += 5;
-
     if (cursors.space.isDown)
     {
         player.setVelocityY(-gravityY);
