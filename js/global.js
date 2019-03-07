@@ -25,9 +25,12 @@ var score = 0;
 var gameOver = false;
 var scoreText;
 var globalStrings = {
-	arcade: "arcade",
-	sky: "sky"
-	
+	arcade: 'arcade',
+	sky: 'sky',
+	ground: 'ground',
+	star: 'star',
+	bomb: 'bomb',
+	player: 'player'
 };
 
 var game = new Phaser.Game(config);
