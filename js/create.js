@@ -23,7 +23,7 @@ function create ()
     player.setBounce(0.2);
     player.setCollideWorldBounds(true);
     //	Everything has gravity on X except player
-    player.setGravityX(0);
+    player.body.setGravityX(0)
 
     //  Our player animations, turning, walking left and walking right.
     this.anims.create({
