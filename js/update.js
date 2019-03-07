@@ -5,7 +5,7 @@ function update ()
         return;
     }
 
-    game.camera.x += 3;
+    this.cameras.main.x += 5;
 
     if (cursors.space.isDown)
     {
